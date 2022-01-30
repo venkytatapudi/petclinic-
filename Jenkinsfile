@@ -6,7 +6,7 @@ pipeline {
     registryCredential = 'mydockerinputs'
     dockerImage = ''
   }
-    agent {label 'worker1'}
+    agent any
 
     stages {
         
