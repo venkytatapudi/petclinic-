@@ -3,10 +3,10 @@ pipeline {
     
     environment {
     imagename = "varaprasadthatisetti/myclinic"
-    registryCredential = 'docker-creds'
+    registryCredential = 'MY-DOCKER-premissions'
     dockerImage = ''
   }
-    agent {label 'worker1'}
+    agent any
 
     stages {
         
