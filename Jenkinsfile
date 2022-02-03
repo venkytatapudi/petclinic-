@@ -6,7 +6,7 @@ pipeline {
     registryCredential = 'MY-DOCKER-premissions'
     dockerImage = ''
   }
-    agent {label 'BHEEMnew'
+    agent {label 'BHEEMnew'}
 
     stages {
         
