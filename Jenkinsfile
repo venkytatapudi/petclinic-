@@ -2,11 +2,11 @@
 pipeline {
     
     environment {
-    imagename = "varaprasadthatisetti/my1clinic"
-    registryCredential = 'MY-DOCKER-premissions'
+    imagename = "varaprasadthatisetti/my12clinic"
+    registryCredential = 'my-docker-creds'
     dockerImage = ''
   }
-    agent {label 'BHEEMnew'}
+    agent {label 'worker1'}
 
     stages {
         
